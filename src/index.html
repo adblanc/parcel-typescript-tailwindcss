@@ -4,8 +4,34 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link rel="stylesheet" href="styles/index.css" />
     </head>
-    <body>
+    <body class="flex flex-col justify-center items-center h-full min-h-screen">
+        <h1 class="text-5xl text-purple-500 text-center font-bold">
+            Hello from tailwind
+        </h1>
+        <div class="mt-16 text-gray-800">
+            Built with
+            <a
+                target="_blank"
+                class="font-semibold underline"
+                href="https://tailwindcss.com"
+                >tailwindcss</a
+            >,
+            <a
+                target="_blank"
+                class="font-semibold underline"
+                href="https://parceljs.org/"
+                >parcel</a
+            >
+            and
+            <a
+                target="_blank"
+                class="font-semibold underline"
+                href="https://www.typescriptlang.org/"
+                >typescript</a
+            >.
+        </div>
         <script src="app/index.ts"></script>
     </body>
 </html>
