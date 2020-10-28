@@ -3,6 +3,10 @@
 A small boilerplate that shows how to use **[Parcel.js](https://github.com/parcel-bundler/parcel)** with **typescript** and **TailwindCSS** to build a vanilla website.<br/>
 It also comes with **[Eslint](https://github.com/eslint/eslint)** and **[Prettier](https://github.com/prettier/prettier)**
 
+## Demo
+
+You can view a live demo **[here](https://parcel-typescript-tailwindcss.vercel.app/)**
+
 ## Getting started
 
 Clone the project :
